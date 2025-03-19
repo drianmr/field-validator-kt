@@ -1,9 +1,13 @@
 [versions]
 kotlin = "2.1.10"
 kotlinx-datetime = "0.6.2"
+dokka = "2.0.0"
+maven-publish = "0.31.0-rc2"
 
 [libraries]
 kotlinx-datetime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version.ref = "kotlinx-datetime" }
 
 [plugins]
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+dokka = { id = "org.jetbrains.dokka", version.ref = "dokka" }
+maven-publish = { id = "com.vanniktech.maven.publish", version.ref = "maven-publish" }

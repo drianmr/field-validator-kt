@@ -10,7 +10,7 @@ plugins {
 }
 
 group = "com.drianmr.common"
-version = "1.0.0"
+version = "1.0.1"
 
 repositories {
     mavenCentral()
@@ -48,7 +48,7 @@ mavenPublishing {
 
     signAllPublications()
 
-    coordinates("io.github.drianmr", "field-validator-kt", "1.0.0")
+    coordinates("io.github.drianmr", "field-validator-kt", "1.0.1")
 
     pom {
         name.set("Field Validator")
